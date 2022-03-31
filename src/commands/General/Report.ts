@@ -10,7 +10,7 @@ export default class Command extends BaseCommand {
             command: 'report',
             aliases: ['rep'],
             description: 'send message mods, report, issue, advice',
-            category: 'framework',
+            category: 'general',
             usage: `${client.config.prefix}report`,
             baseXp: 10
         })
