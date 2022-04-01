@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
 		super(client, handler, {
 			command: "magma",
 			description: `Get text image`,
-			aliases: ["magma"],
+			aliases: ["utils"],
 			category: "creation",
 			usage: `${client.config.prefix}magma`,
 			baseXp: 50,
