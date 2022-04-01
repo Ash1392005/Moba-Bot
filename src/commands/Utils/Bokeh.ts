@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
 		super(client, handler, {
 			command: "bokeh",
 			description: `Get text image`,
-			category: "creation",
+			category: "utils",
 			usage: `${client.config.prefix}bokeh`,
 			baseXp: 50,
 		});
