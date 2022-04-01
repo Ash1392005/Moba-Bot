@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 			command: "pencil",
 			description: `Get text image`,
 			aliases: ["pencil"],
-			category: "creation",
+			category: "utils",
 			usage: `${client.config.prefix} pencil`,
 			baseXp: 50,
 		});
