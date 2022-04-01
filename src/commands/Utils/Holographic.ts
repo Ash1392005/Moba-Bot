@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 			command: "holographic",
 			description: `Get text image`,
 			aliases: ["hgrap"],
-			category: "creation",
+			category: "utils",
 			usage: `${client.config.prefix}holographic`,
 			baseXp: 50,
 		});
