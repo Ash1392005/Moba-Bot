@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 			command: "lovewall",
 			description: `Get text image`,
 			aliases: ["lwall"],
-			category: "creation",
+			category: "utils",
 			usage: `${client.config.prefix}lovewall`,
 			baseXp: 50,
 		});
