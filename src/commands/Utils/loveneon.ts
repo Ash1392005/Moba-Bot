@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 			command: "loveneon",
 			description: `Get text image`,
 			aliases: ["lneon"],
-			category: "creation",
+			category: "utils",
 			usage: `${client.config.prefix}loveneon`,
 			baseXp: 50,
 		});
