@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 			command: "3dt",
 			description: `Get text image`,
 			aliases: ["3dt"],
-			category: "creation",
+			category: "utils",
 			usage: `${client.config.prefix}3dt`,
 			baseXp: 50,
 		});
