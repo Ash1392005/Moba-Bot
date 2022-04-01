@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 			command: "silvertext",
 			description: `Get text image`,
 			aliases: ["silvert"],
-			category: "creation",
+			category: "utils",
 			usage: `${client.config.prefix}silvertext`,
 			baseXp: 50,
 		});
