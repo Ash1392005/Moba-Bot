@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
 			command: "captain",
 			description: `Get text image`,
 			aliases: ["cap.ame"],
-			category: "creation",
+			category: "utils",
 			usage: `${client.config.prefix}captain`,
 			baseXp: 50,
 		});
