@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
 		super(client, handler, {
 			command: "balloon",
 			description: `Get text image`,
-			category: "creation",
+			category: "utils",
 			usage: `${client.config.prefix}balloon`,
 			baseXp: 50,
 		});
